@@ -26,12 +26,12 @@ GIVEN a functional Express.js API
 - [x] .gitignore
 - [x] .env
 - [ ] models
-  - [ ] Category.js
-  - [ ] Product.js
-  - [ ] Tag.js
-  - [ ] ProductTag.js
-  - [ ] index.js
-  - [ ] Connect to database
+  - [x] Category.js
+  - [x] Product.js
+  - [x] Tag.js
+  - [x] ProductTag.js
+  - [x] index.js
+  - [x] Connect to database
 - [ ] seeds
   - [ ] category-seeds.js
   - [ ] product-seeds.js
