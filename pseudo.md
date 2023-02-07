@@ -43,7 +43,7 @@ GIVEN a functional Express.js API
     - [x] product-routes.js
     - [x] tag-routes.js
   - POST, PUT, DELETE routes
-    - [ ] category-routes.js
+    - [x] category-routes.js
     - [ ] product-routes.js
     - [ ] tag-routes.js
   - [ ] index.js
