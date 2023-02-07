@@ -33,8 +33,8 @@ GIVEN a functional Express.js API
   - [x] index.js
   - [x] Connect to database
 - [x] Seed data
-- [ ] routes/api
-  - [ ] GET routes - All
+- [x] routes/api
+  - [x] GET routes - All
     - [x] category-routes.js
     - [x] product-routes.js
     - [x] tag-routes.js
@@ -46,5 +46,4 @@ GIVEN a functional Express.js API
     - [x] category-routes.js
     - [x] product-routes.js
     - [x] tag-routes.js
-  - [ ] index.js
-  - [ ] Test routes
+  - [x] Test routes
