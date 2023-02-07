@@ -12,8 +12,15 @@ Product.belongsTo(Category, {
   foreignKey: "category_id",
 });
 
-Product.belongsToMany(Tag, { through: "product_tag" });
-Tag.belongsToMany(Product, { through: "product_tag" });
+Product.belongsToMany(Tag, {
+  through: ProductTag,
+  foreignKey: "product_id"
+});
+
+Tag.belongsToMany(Product, {
+  through: ProductTag,
+  foreignKey: "tag_id"
+});
 
 module.exports = {
   Product,

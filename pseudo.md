@@ -32,16 +32,19 @@ GIVEN a functional Express.js API
   - [x] ProductTag.js
   - [x] index.js
   - [x] Connect to database
-- [ ] seeds
-  - [ ] category-seeds.js
-  - [ ] product-seeds.js
-  - [ ] tag-seeds.js
-  - [ ] product-tag-seeds.js
-  - [ ] index.js
-  - [ ] Seed data
+- [x] Seed data
 - [ ] routes/api
-  - [ ] category-routes.js
-  - [ ] product-routes.js
-  - [ ] tag-routes.js
+  - [ ] GET routes - All
+    - [x] category-routes.js
+    - [x] product-routes.js
+    - [x] tag-routes.js
+  - [x] GET routes - One
+    - [x] category-routes.js
+    - [x] product-routes.js
+    - [x] tag-routes.js
+  - POST, PUT, DELETE routes
+    - [ ] category-routes.js
+    - [ ] product-routes.js
+    - [ ] tag-routes.js
   - [ ] index.js
   - [ ] Test routes
